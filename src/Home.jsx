@@ -21,7 +21,7 @@ const Home = () => {
 
             {/* =-==================================================================== */}
 
-            <nav class="navbar navbar-dark bg-primary " style={{padding: "20px 30px", 'borderRadius':'50px'}}>
+            <nav class="navbar navbar-dark bg-primary " style={{ padding: "20px 30px", 'borderRadius': '50px' }}>
                 <a class="navbar-brand">Navbar</a>
                 <form class="form-inline my-2 my-lg-0" >
 

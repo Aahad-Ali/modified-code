@@ -11,9 +11,9 @@ const Rout = () => {
 
           {
             localStorage.getItem('token') === null ?
-            <Route path='/' element={<Login />}></Route>
-            :
-            <Route path='/' element={<Home />}></Route>
+              <Route path='/' element={<Login />}></Route>
+              :
+              <Route path='/' element={<Home />}></Route>
           }
 
 

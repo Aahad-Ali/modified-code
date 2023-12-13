@@ -1,32 +1,62 @@
-body{
+body {
     display: flex;
     justify-content: center;
     height: 100vh;
     /* width: 100vw; */
-    background-image: url("https://img.freepik.com/free-photo/sports-car-races-through-dark-blurred-motion-generative-ai_188544-12490.jpg?w=1380&t=st=1702471196~exp=1702471796~hmac=2a2a37208f851845b08f8086b9c8332517dd254a5efad8163d13b48d0fc85a1e");
-background-size: cover;
+    /* background-image: url("https://img.freepik.com/free-photo/sports-car-races-through-dark-blurred-motion-generative-ai_188544-12490.jpg?w=1380&t=st=1702471196~exp=1702471796~hmac=2a2a37208f851845b08f8086b9c8332517dd254a5efad8163d13b48d0fc85a1e"); */
+    /* background-size: cover;
 background-repeat: no-repeat;
-background-position: center;
-/* filter: blur(10px); */
-
+background-position: center; */
+    /* filter: blur(10px); */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.login-form{
-    border: 1px solid #fff;
+
+.login-form {
+    border: 1px solid #ffffff;
     border-radius: 10px;
     padding: 50px;
-background-color: #ffffff5e;
+    background-color: #ffffff5e;
+    z-index: 2;
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
 }
-div#root {
+
+.login-page {
     display: flex;
+    align-content: center;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    /* background-color: black; */
+    background-image: url("https://img.freepik.com/free-photo/sports-car-races-through-dark-blurred-motion-generative-ai_188544-12490.jpg?w=1380&t=st=1702471196~exp=1702471796~hmac=2a2a37208f851845b08f8086b9c8332517dd254a5efad8163d13b48d0fc85a1e");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* filter: blur(5px); */
 }
+
 #exampleInputEmail1 {
     padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 350px;
 }
-#exampleInputPassword1{
+
+#exampleInputPassword1 {
     padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 350px;
+
+}
+
+.login-email-lable {
+    color: #ffffff;
+}
+
+.login-pass-lable {
+    color: #ffffff;
 }
