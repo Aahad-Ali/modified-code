@@ -2,4 +2,31 @@ body{
     display: flex;
     justify-content: center;
     height: 100vh;
+    /* width: 100vw; */
+    background-image: url("https://img.freepik.com/free-photo/sports-car-races-through-dark-blurred-motion-generative-ai_188544-12490.jpg?w=1380&t=st=1702471196~exp=1702471796~hmac=2a2a37208f851845b08f8086b9c8332517dd254a5efad8163d13b48d0fc85a1e");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+/* filter: blur(10px); */
+
+}
+.login-form{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 50px;
+background-color: #ffffff5e;
+}
+div#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+#exampleInputEmail1 {
+    padding: 10px;
+}
+#exampleInputPassword1{
+    padding: 10px;
 }

@@ -19,17 +19,30 @@ const Home = () => {
     return (
         <>
 
+            {/* =-==================================================================== */}
+
+            <nav class="navbar navbar-dark bg-primary " style={{padding: "20px 30px", 'borderRadius':'50px'}}>
+                <a class="navbar-brand">Navbar</a>
+                <form class="form-inline my-2 my-lg-0" >
+
+                    <button type="button" class="btn btn-warning my-2 my-sm-0 " onClick={() => {
+                        {
+                            localStorage.clear()
+                            window.location.reload(true)
+                        }
+                    }}>Logout</button>
+
+                </form>
+            </nav>
+
+            {/* =========================================================================== */}
+
             <div className="mt-5 pt-5">
+
                 <input onChange={(value) => setSearch(value.target.value)}
-                    placeholder="Search"
-                    type="text"
+                    class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"
                     className="form-control my-5" />
-                <button type="button" class="btn btn-primary" onClick={() => {
-                    {
-                        localStorage.clear()
-                        window.location.reload(true)
-                    }
-                }}>Logout</button>
+
                 <div className="container">
                     <div className="row">
 
@@ -38,7 +51,7 @@ const Home = () => {
                                 .map((data) => {
 
                                     return (
-                                        <div className="col-md-4 col-lg-3">
+                                        <div className="col-md-4 col-xs-12 col-sm-6">
                                             <div className="card" style={{ width: "18rem", height: "600px", margin: "20px" }}>
                                                 <img src="https://cache1.pakwheels.com/system/car_generation_pictures/6008/original/Land_Cruiser_300_-_PNG.png?1635484577" className="card-img-top" alt="..." />
                                                 <div className="card-body">
